@@ -1,0 +1,149 @@
+.about-section {
+   padding: 4rem 2rem;
+   border-bottom: 0;
+   color: var(--cor-texto);
+}
+
+.about-section > .container {
+   max-width: 1320px;
+   padding: 0;
+}
+
+.about-copy {
+   max-width: 860px;
+   margin: 0 auto 2.5rem;
+   text-align: center;
+}
+
+.about-copy h2 {
+   margin-bottom: 1rem;
+   color: var(--cor-destaque);
+}
+
+.about-copy p {
+   margin: 0;
+   color: var(--cor-texto-suave);
+   line-height: 1.7;
+}
+
+.technology-card {
+   align-items: center;
+   padding: 1.5rem 2rem;
+   border: 1px solid var(--cor-destaque);
+   border-radius: 8px;
+   background: rgb(5 17 47 / 70%);
+}
+
+.technology-card__intro {
+   padding-right: 1.5rem;
+}
+
+.technology-card__eyebrow {
+   display: inline-block;
+   margin-bottom: 1rem;
+   padding: 0.35rem 0.75rem;
+   border: 1px solid rgb(38 112 249 / 55%);
+   border-radius: 999px;
+   color: var(--cor-destaque-hover);
+   font-size: 0.65rem;
+}
+
+.technology-card__intro h3 {
+   margin: 0;
+   color: var(--cor-texto);
+   font-size: 1.15rem;
+   font-weight: 700;
+   line-height: 1.35;
+}
+
+.technology-card__list {
+   padding-inline: 1rem;
+}
+
+.technology-list {
+   display: grid;
+   gap: 0.7rem;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.technology-list__item {
+   display: flex;
+   align-items: center;
+   gap: 0.6rem;
+   color: var(--cor-texto-suave);
+   font-size: 0.85rem;
+}
+
+.technology-list__item svg {
+   flex: 0 0 1.35rem;
+   width: 1.35rem;
+   height: 1.35rem;
+   font-size: 1.35rem;
+}
+
+.technology-card__quote {
+   align-self: stretch;
+   margin: 0;
+   padding: 0.25rem 0 0.25rem 1.5rem;
+   border-left: 1px solid var(--cor-borda);
+   color: var(--cor-texto-suave);
+}
+
+.technology-card__quote > span {
+   color: var(--cor-destaque);
+   font-size: 1.1rem;
+}
+
+.technology-card__quote p {
+   margin: 0.4rem 0 0;
+   color: var(--cor-texto-suave);
+   font-size: 0.78rem;
+   font-style: italic;
+   line-height: 1.55;
+}
+
+@media (max-width: 991.98px) {
+   .technology-card__intro {
+      padding: 0 0 1.5rem;
+   }
+
+   .technology-card__list {
+      padding: 0 0 1.5rem;
+   }
+
+   .technology-card__quote {
+      padding: 1.25rem 0 0;
+      border-top: 1px solid var(--cor-borda);
+      border-left: 0;
+   }
+}
+
+@media (max-width: 575.98px) {
+   .about-section {
+      padding: 3rem 1rem;
+   }
+
+   .technology-card {
+      padding: 1.25rem;
+   }
+
+   .technology-card__list .col-4 {
+      padding-inline: 0.25rem;
+   }
+
+   .technology-list__item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+   }
+
+   .technology-list__item svg {
+      flex-basis: 1.5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      font-size: 1.5rem;
+   }
+}
