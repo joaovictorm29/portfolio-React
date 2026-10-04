@@ -105,6 +105,36 @@
     filter: drop-shadow(0 24px 36px rgb(0 0 0 / 25%));
 }
 
+.hero-socials {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.hero-socials__link {
+  display: grid;
+  width: 2.75rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid var(--cor-destaque);
+  border-radius: 50%;
+  background: rgb(38 112 249 / 12%);
+  color: var(--cor-destaque-hover);
+  font-size: 1.25rem;
+  transition: transform 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.hero-socials__link:hover {
+  transform: translateY(-2px);
+  background: var(--cor-destaque);
+  color: var(--cor-texto);
+}
+
+.hero-socials__link:focus-visible {
+  outline: 2px solid var(--cor-destaque-hover);
+  outline-offset: 3px;
+}
+
 @media (max-width: 991.98px) {
     .hero {
         min-height: auto;

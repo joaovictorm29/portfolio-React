@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function Hero() {
   return (
@@ -28,6 +29,30 @@ function Hero() {
                 download
               >
                 Baixar CV
+              </a>
+            </div>
+
+            <div className="hero-socials">
+              <a
+                className="hero-socials__link"
+                href="https://github.com/joaovictorm29"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <FaGithub aria-hidden="true" />
+              </a>
+
+              <a
+                className="hero-socials__link"
+                href="https://www.linkedin.com/in/joaovictorm29/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+              >
+                <FaLinkedin aria-hidden="true" />
               </a>
             </div>
           </div>
