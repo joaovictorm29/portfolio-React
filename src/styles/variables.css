@@ -7,19 +7,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-text: #202522;
-  --color-muted: #65716a;
-  --color-accent: #287a5a;
-  --color-border: #dce2dc;
-  --color-surface: #fff;
-
-  --cor-fundo: #0b0b25;
-  --cor-superficie: rgba(29, 28, 28, 0.82);
-  --cor-texto: #fff;
-  --cor-texto-suave: #b8b8b8;
-  --cor-destaque: #2670f9;
-  --cor-destaque-hover: #4f8cff;
-  --altura-header: 64px;
-  --fonte-primaria: 'Poppins', sans-serif;
-  --cor-borda: rgba(250, 250, 250, 0.1);
+  
+  --cor-fundo: #070A1C;
+  --cor-superficie: #0D1228;
+  --cor-texto: #E7ECF7;
+  --cor-texto-suave: #9AA7BF;
+  --cor-borda: #252D48;
+  --cor-destaque: #4D8DFF;
+  --cor-destaque-hover: #60A5FA;
+  --altura-header: 78px;
 }
