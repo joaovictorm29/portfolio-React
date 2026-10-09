@@ -6,7 +6,7 @@ function Experience() {
       <h2 id="experience-heading">Experiência profissional</h2>
       <article>
         <h3>Estagiário de Dados - GTM Engenharia</h3>
-        <p>Atuação principalmente com Excel e uso de Python para automatizar processos e gerar relatórios. Também utilizo ferramentas de desenvolvimetno web para contruir ideias que auxiliem o dia a dia do setor de controladoria da empresa.</p>
+        <p>Atuação principalmente com Excel e uso de Python para automatizar processos e gerar relatórios. Também utilizo ferramentas de desenvolvimento web para contruir ideias que auxiliem o dia a dia do setor de controladoria da empresa.</p>
       </article>
     </section>
   )
