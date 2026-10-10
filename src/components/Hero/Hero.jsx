@@ -10,7 +10,7 @@ function Hero() {
             <span className="hero-tag">&lt;/&gt; DESENVOLVEDOR WEB</span>
 
             <h1>
-              Olá, eu sou o <span>João Victor!</span>
+              Olá, eu sou o <span className="hero-name">João Victor!</span>
             </h1>
 
             <p>
