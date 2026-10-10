@@ -10,7 +10,9 @@
     min-height: 78px;
     padding: 12px max(24px, calc((100% - 1200px) / 2));
     border-bottom: 1px solid var(--cor-borda);
-    background: var(--cor-fundo);
+    background: #070a1ca4;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
     color: var(--cor-texto);
 }
 
